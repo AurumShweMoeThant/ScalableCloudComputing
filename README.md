@@ -1,5 +1,18 @@
 # Scalable Cloud-Based Sentiment Analysis for Amazon Electronics Reviews
 
+## 📑 Table of Contents
+
+- [Scalable Cloud-Based Sentiment Analysis for Amazon Electronics Reviews](#scalable-cloud-based-sentiment-analysis-for-amazon-electronics-reviews)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Repository Structure](#repository-structure)
+  - [AWS Architecture](#aws-architecture)
+  - [Key Results](#key-results)
+  - [Setup and Installation](#setup-and-installation)
+  - [Usage](#usage)
+  - [Demo](#demo)
+  - [Authors](#authors)
+
 ## Overview
 This project implements a scalable, cloud-native pipeline for sentiment analysis of Amazon Electronics reviews using Amazon Web Services (AWS). The system leverages distributed processing to handle large-scale datasets, performing both batch and real-time analysis. The pipeline processes millions of reviews stored in JSON format, extracts meaningful insights through keyword extraction and sentiment classification, and visualizes results efficiently.
 
@@ -75,5 +88,5 @@ The architecture diagram (refer to Fig. 1 in the report) illustrates data flow f
 Watch the [Demo Video Presentation](https://studentncirl-my.sharepoint.com/:v:/g/personal/x24170399_student_ncirl_ie/EQWRqPC7jR9AsY4mKpSbfbMBIiOCrvPWsVteb-xgO2Tf4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vpaito) for a walkthrough of the pipeline and results.
 
 ## Authors
-- **Oluseyi Iyetomide Simon Coker** (x23370751@student.ncirl.ie)
+- **Oluseyi Iyetomide Simon Coker**
 - **Shwe Moe Thant**

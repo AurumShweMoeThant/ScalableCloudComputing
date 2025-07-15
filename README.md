@@ -15,7 +15,7 @@ The project was developed as part of a continuous assessment by **Oluseyi Iyetom
 - **Scalability**: Designed to support auto-scaling with Amazon CloudWatch for dynamic resource allocation in production environments.
 
 ## Repository Structure
-- **`data_ingestion.py`**: PySpark script for ingesting and cleaning raw JSON data from S3, converting it to Parquet format.
+- [**`data_ingestion.py`**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/data_ingestion.py): PySpark script for ingesting and cleaning raw JSON data from S3, converting it to Parquet format.
 - **`20_percent.py`, `40_percent.py`, `60_percent.py`, `80_percent.py`, `100_percent.py`**: PySpark scripts for MapReduce-based batch processing of dataset fractions.
 - **`stream_processing.py`**: Script for real-time sentiment analysis and keyword tracking using Kinesis and EC2.
 - **`convert_mapreduce_to_json.py`**: Converts processed Parquet data to newline-delimited JSON for streaming.

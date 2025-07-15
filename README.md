@@ -1,8 +1,6 @@
 # Scalable Cloud-Based Sentiment Analysis for Amazon Electronics Reviews
 
 ## 📑 Table of Contents
-
-- [Scalable Cloud-Based Sentiment Analysis for Amazon Electronics Reviews](#scalable-cloud-based-sentiment-analysis-for-amazon-electronics-reviews)
   - [Overview](#overview)
   - [Features](#features)
   - [Repository Structure](#repository-structure)

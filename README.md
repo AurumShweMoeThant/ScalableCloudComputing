@@ -16,13 +16,12 @@ The project was developed as part of a continuous assessment by **Oluseyi Iyetom
 
 ## Repository Structure
 - [**`data_ingestion.py`**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/data_ingestion.py): PySpark script for ingesting and cleaning raw JSON data from S3, converting it to Parquet format.
-- **`20_percent.py`, `40_percent.py`, `60_percent.py`, `80_percent.py`, `100_percent.py`**: PySpark scripts for MapReduce-based batch processing of dataset fractions.
-- **`stream_processing.py`**: Script for real-time sentiment analysis and keyword tracking using Kinesis and EC2.
-- **`convert_mapreduce_to_json.py`**: Converts processed Parquet data to newline-delimited JSON for streaming.
-- **`read_json_to_kinesis.py`**: Feeds JSON data into Kinesis for real-time processing.
-- **`hybrid_parallelism.py`**: Implements hybrid parallelism for concurrent task execution.
-- **Bootstrap Script**: Installs required Python packages (`boto3`, `pandas`, `textblob`, `nltk`, `plotly`, `kaleido`) and sets up Google Chrome for Plotly visualizations on EMR.
-- **Visualizations**: Includes bar charts for top 10 keywords and pie charts for sentiment distribution, stored in S3.
+- **[`20_percent.py`](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/MapReduce%20Implementation/20percent.py), [`40_percent.py`](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/MapReduce%20Implementation/40percent.py), [`60_percent.py`](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/MapReduce%20Implementation/60percent.py), [`80_percent.py`](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/MapReduce%20Implementation/80percent.py), [`100_percent.py`](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/MapReduce%20Implementation/100percent.py)**: PySpark scripts for MapReduce-based batch processing of dataset fractions.
+- [**`stream_processing.py`**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/stream_processing.py): Script for real-time sentiment analysis and keyword tracking using Kinesis and EC2.
+- [**`convert_mapreduce_to_json.py`**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/convert_parquet_to_json.py): Converts processed Parquet data to newline-delimited JSON for streaming.
+- [**`send_json_to_kinesis.py`**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/send_json_to_kinesis.py): Feeds JSON data into Kinesis for real-time processing.
+- [**`hybrid_parallelism.py`**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/hybrid_parallelism.py): Implements hybrid parallelism for concurrent task execution.
+- [**Bootstrap Script**](https://github.com/AurumShweMoeThant/ScalableCloudComputing/blob/main/install_textblob.sh): Installs required Python packages (`boto3`, `pandas`, `textblob`, `nltk`, `plotly`, `kaleido`) and sets up Google Chrome for Plotly visualizations on EMR.
 
 ## AWS Architecture
 The pipeline uses the following AWS services:
